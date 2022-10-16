@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #343434;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.rights {
+  font-family: "Poppins", sans-serif;
+  width: 33%;
+}
+.link {
+  width: 33%;
+}
+.social {
+  width: 33%;
+}
+.link a {
+  margin: 0px 10px;
+  font-family: "Ubuntu", sans-serif;
+  color: #3fc9fb;
+}
+.social svg {
+  font-size: 2rem;
+  opacity: 0.5;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 0px 10px;
+}
+.gmail {
+  color: rgb(216, 46, 46);
+  background-color: #3b5998;
+}
+.facebook {
+  color: #3b5998;
+  background: white;
+}
+.twitter {
+  color: #55acee;
+  background: white;
+}
+.instagram {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  font-size: 2rem;
+}
+@media screen and (max-width: 888px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .social {
+    width: 100%;
+  }
+  .link {
+    width: 100%;
+  }
+  .rights {
+    width: 100%;
+  }
+}

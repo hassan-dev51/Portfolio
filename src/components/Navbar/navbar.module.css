@@ -1,0 +1,130 @@
+.nav {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+.color {
+  transition: all 0.5s ease-in-out;
+  background-color: #343434;
+}
+.logo {
+  width: 40%;
+  text-align: center;
+}
+.menu_icons {
+  width: 60%;
+}
+.navlinks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navlinks li {
+  list-style: none;
+}
+.navlinks a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #3fc9fb;
+  font-weight: normal;
+}
+.navlinks a:hover {
+  border-bottom: 2px solid #3fc9fb;
+}
+.navbar_menu {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  visibility: hidden;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 1rem;
+  align-items: center;
+}
+.navbar_menu svg {
+  width: 70%;
+  height: 70%;
+  color: var(--white-color);
+  cursor: pointer;
+}
+.navbar_menu div {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  padding: 1rem;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  background-color: rebeccapurple;
+  box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
+}
+.navbar_menu div > svg {
+  width: 35px;
+  height: 35px;
+  color: green;
+  cursor: pointer;
+}
+.navbar_menu ul {
+  margin: 0%;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navbar_menu li {
+  margin: 1rem;
+}
+.navbar_menu a {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+@media screen and (max-width: 888px) {
+  .navlinks {
+    display: none;
+  }
+  .navbar_menu {
+    visibility: visible;
+  }
+  .logo img {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 786px) {
+  .navlinks {
+    visibility: hidden;
+  }
+  .navbar_menu {
+    visibility: visible;
+  }
+  .logo img {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navlinks {
+    visibility: hidden;
+  }
+  .navbar_menu {
+    visibility: visible;
+  }
+  .logo img {
+    width: 100px;
+  }
+}

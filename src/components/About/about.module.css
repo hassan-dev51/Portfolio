@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.about {
+  display: flex;
+  height: 90vh;
+}
+h1 {
+  font-family: "Metal Mania", cursive;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  font-weight: 300;
+  color: #eb311f;
+}
+h2 {
+  font-family: "Work Sans", sans-serif;
+}
+p {
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+.info {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.my_self {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 80%;
+  border: 5px solid #eb311f;
+  padding: 1rem;
+}
+.my_self a {
+  background-color: #232323;
+  padding: 0px 10px;
+  width: 100px;
+  text-align: center;
+  border-radius: 50px;
+}
+.my_image {
+  width: 50%;
+  background-color: rgba(128, 128, 128, 0.13);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  position: relative;
+  width: 390px;
+  height: 390px;
+}
+.image > *,
+.image_border > * {
+  position: absolute;
+  width: 390px;
+  height: 390px;
+}
+.heading {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  color: #232323;
+}
+.frame {
+  border: 15px #eb311f solid;
+  transform: rotate(45deg);
+  box-shadow: 0 0 10px #eb311f, inset 0 0 20px #eb311f;
+}
+.grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.data_white {
+  background-color: #fff;
+}
+.image_border {
+  mix-blend-mode: multiply;
+}
+.image img {
+  object-fit: cover;
+}
+@media screen and (max-width: 925px) {
+  .about {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: auto;
+  }
+  .my_self {
+    width: 100%;
+    padding: 2rem;
+  }
+  .info {
+    width: 100%;
+  }
+  .my_image {
+    width: 100%;
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  image {
+    position: relative;
+    width: 250px;
+    height: 250px;
+  }
+  .image > *,
+  .image_border > * {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #eb311f;
+  }
+  h2 {
+    font-family: "Work Sans", sans-serif;
+  }
+  p {
+    font-size: 1.3rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+  }
+}

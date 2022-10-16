@@ -1,0 +1,121 @@
+.section {
+  padding: 0rem 9rem;
+}
+.section_contact_main {
+  max-width: 40rem;
+  margin: 0 auto;
+  margin-top: 9rem;
+  transition: all 0.3s linear;
+}
+.section_contact_main .grid {
+  gap: 3.2rem;
+}
+.section_contact_main form {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.section_contact_main input[type="text"],
+.section_contact_main input[type="email"],
+.section_contact_main textarea {
+  padding: 1rem 0.5rem;
+  border: 0.1rem solid #eee;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+  outline: none;
+  background: transparent;
+}
+.common_heading {
+  font-size: 2.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  position: relative;
+}
+.common_heading::before {
+  content: "";
+  position: absolute;
+  top: 84%;
+
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: red;
+}
+.common_heading::after {
+  content: "";
+  top: 100%;
+  position: absolute;
+  left: 1.5rem;
+  min-width: 13rem;
+  background-color: green;
+  height: 0.3rem;
+}
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+}
+.grid_two_column {
+  grid-template-columns: repeat(2, 1fr);
+}
+.btn {
+  background-image: linear-gradient(
+    to right,
+    #e55d87 0%,
+    #5fc3e4 51%,
+    #e55d87 100%
+  );
+  padding: 13px 26px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-family: "Catamaran", sans-serif;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  font-size: 1rem;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  width: 120px;
+}
+
+.btn:hover,
+.btn:active {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+@media screen and (max-width: 880px) {
+  .common_heading {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .common_heading::before {
+    width: 0px;
+  }
+  .common_heading::after {
+    min-width: 0px;
+  }
+  .section_contact_main {
+    margin-top: 3rem;
+    width: 100%;
+  }
+  .grid_two_column {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section {
+    padding: 0rem 1rem;
+  }
+}
+@media screen and (max-width: 786px) {
+  .common_heading {
+    font-size: 1.5rem;
+  }
+}
