@@ -17,7 +17,7 @@ const Study = () => {
             <>
               <div className={style.technologies} key={item.id}>
                 <div className={style.overly}>
-                  <img src={item.image} alt="css" />
+                  <img src={item.image} alt="css" loading="lazy" />
                   <div className={style.overly_bar}>
                     <CircularProgressbar
                       value={item.percentage}

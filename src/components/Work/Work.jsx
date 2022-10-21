@@ -20,7 +20,7 @@ const Work = () => {
             >
               <div className={`${style.app__work_item} ${style.ap_flex}`}>
                 <div className={`${style.app__work_img} ${style.ap_flex}"`}>
-                  <img src={item.image} alt="{work.name}" />
+                  <img src={item.image} alt="{work.name}" loading="lazy" />
                   <motion.div
                     whileHover={{ opacity: [0, 1] }}
                     transition={{

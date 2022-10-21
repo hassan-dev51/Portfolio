@@ -27,7 +27,7 @@ const About = () => {
         </div>
         <div className={style.my_image}>
           <div className={style.image}>
-            <img src={bg} alt="pic" />
+            <img src={bg} alt="pic" loading="lazy" />
             <div className={style.frame}></div>
             <div className={style.grid}>
               <div className={style.data_white}></div>
@@ -37,7 +37,7 @@ const About = () => {
             </div>
 
             <div className={style.image_border}>
-              <img src={bg} alt="pic" />
+              <img src={bg} alt="pic" loading="lazy" />
               <div className={style.grid}>
                 <div></div>
                 <div className={style.data_white}></div>

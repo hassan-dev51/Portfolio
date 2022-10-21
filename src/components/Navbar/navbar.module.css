@@ -51,7 +51,7 @@
 .navbar_menu svg {
   width: 70%;
   height: 70%;
-  color: var(--white-color);
+  color: #3fc9fb;
   cursor: pointer;
 }
 .navbar_menu div {
@@ -61,19 +61,24 @@
   bottom: 0;
   z-index: 9999;
   padding: 1rem;
-  width: 50%;
+  width: 200px;
   height: 100vh;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
-  background-color: rebeccapurple;
+  background: rgb(226, 236, 236);
+  background: linear-gradient(
+    0deg,
+    rgba(226, 236, 236, 1) 0%,
+    rgba(218, 202, 244, 1) 100%
+  );
   box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
 }
 .navbar_menu div > svg {
   width: 35px;
   height: 35px;
-  color: green;
+  color: rgba(168, 168, 168, 0.658);
   cursor: pointer;
 }
 .navbar_menu ul {
