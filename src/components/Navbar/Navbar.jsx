@@ -23,7 +23,9 @@ const Navbar = () => {
   return (
     <nav className={navbar ? style.nav : `${style.nav} ${style.color}`}>
       <div className={style.logo}>
-        <img src={logo} alt="logo" />
+        <a href="#home">
+          <img src={logo} alt="logo" loading="lazy" />
+        </a>
       </div>
       <div className={style.menu_icons}>
         <ul className={style.navlinks}>

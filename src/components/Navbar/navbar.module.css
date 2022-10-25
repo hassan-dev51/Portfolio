@@ -17,6 +17,9 @@
   width: 40%;
   text-align: center;
 }
+.logo img {
+  height: 50px;
+}
 .menu_icons {
   width: 60%;
 }
