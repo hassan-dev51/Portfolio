@@ -84,7 +84,11 @@ footer {
   .link {
     width: 100%;
   }
+  .link a {
+    font-size: 12px;
+  }
   .rights {
     width: 100%;
+    font-size: 14px;
   }
 }

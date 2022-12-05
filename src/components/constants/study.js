@@ -8,7 +8,7 @@ const study = [
   {
     id: 2,
     institute: "PIAIC",
-    year: "2022 - 2022",
+    year: "2020 - 2022",
     degree: "Cloud Native Computing (CNC)",
   },
   {

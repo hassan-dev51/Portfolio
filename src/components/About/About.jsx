@@ -1,7 +1,12 @@
 import React from "react";
+import { motion } from "framer-motion";
+
 import style from "./about.module.css";
 import bg from "../../assests/about2.jpg";
 import pdf from "../../assests/Hassanali.pdf";
+import { TypingText } from "./Custom";
+import { staggerContainer } from "../../utils/motion";
+
 const About = () => {
   return (
     <>
@@ -12,14 +17,22 @@ const About = () => {
         <div className={style.info}>
           <div className={style.my_self}>
             <p>Hi! My Name Is</p>
-            <h1>Hassan Ali</h1>
-            <p>
-              <strong> Web Application Developer</strong> having a special
-              interest in Frontend technologies and experience of building Web
-              applications with JavaScript <strong>React JS</strong>{" "}
-              <strong>Next JS</strong> and some other cool libraries and
-              frameworks.
-            </p>
+            <motion.div
+              variants={staggerContainer}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: false, amount: 0.25 }}
+            >
+              <TypingText title="HASSAN ALI" />
+
+              <p>
+                <strong> Web Application Developer</strong> having a special
+                interest in Frontend technologies and experience of building Web
+                applications with JavaScript <strong>React JS</strong>{" "}
+                <strong>Next JS</strong> and some other cool libraries and
+                frameworks.
+              </p>
+            </motion.div>
             <a href={pdf} download>
               Resume
             </a>

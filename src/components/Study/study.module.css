@@ -59,7 +59,6 @@
 .bar {
   width: 80px;
   height: 80px;
-  /* transform: translateY(-120px); */
   transition: all 0.3s linear;
   opacity: 0;
 }
