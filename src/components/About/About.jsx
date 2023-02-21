@@ -25,7 +25,7 @@ const About = () => {
             >
               <TypingText title="HASSAN ALI" />
 
-              <p>
+              <p className="about_para">
                 <strong> Web Application Developer</strong> having a special
                 interest in Frontend technologies and experience of building Web
                 applications with JavaScript <strong>React JS</strong>{" "}

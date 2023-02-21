@@ -1,7 +1,6 @@
 .work {
   display: flex;
   background-color: rgba(128, 128, 128, 0.13);
-  height: 90vh;
 }
 .app_work_portfolio {
   display: flex;
@@ -24,6 +23,7 @@
   color: #000;
   cursor: pointer;
   transition: all 0.3s ease;
+  height: auto;
 }
 .app__work_item:hover {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
@@ -85,6 +85,9 @@
   background-color: #fff;
   top: -25px;
 }
+.p-text {
+  font-size: 1rem !important;
+}
 .ap_flex {
   display: flex;
   justify-content: center;
@@ -93,13 +96,15 @@
 .ap__flex {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
-  width: 100%;
 }
 @media screen and (max-width: 998px) {
   .ap__flex {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .work {
     height: auto;

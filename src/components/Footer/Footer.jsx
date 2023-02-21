@@ -4,6 +4,7 @@ import {
   AiOutlineTwitter,
   AiFillFacebook,
   AiOutlineMobile,
+  AiFillLinkedin,
 } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
 import style from "./footer.module.css";
@@ -28,6 +29,9 @@ const Footer = () => {
           </a>
           <a href="tel:+92 3456760792">
             <AiOutlineMobile className={style.twitter} title="+92 3456760792" />
+          </a>
+          <a href="https://www.linkedin.com/in/hassan-ali-464666255/">
+            <AiFillLinkedin className={style.twitter} title="LinkedIn" />
           </a>
         </div>
         <div className={style.rights}>

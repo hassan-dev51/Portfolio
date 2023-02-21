@@ -15,7 +15,6 @@ const Work = () => {
           {projects.map((item, ind) => (
             <motion.div
               transition={{ duration: 0.5, delayChildren: 0.5 }}
-              className={style.app_work_portfolio}
               key={ind}
             >
               <div className={`${style.app__work_item} ${style.ap_flex}`}>
@@ -58,7 +57,14 @@ const Work = () => {
                 </div>
                 <div className={`${style.app__work_contant} ${style.ap_flex}`}>
                   <h4 className="bold-text">{item.name}</h4>
-                  <p className="p-text" style={{ marginTop: 10 }}>
+                  <p
+                    style={{
+                      marginTop: 10,
+                      fontSize: "1rem",
+                      fontWeight: "500",
+                      fontFamily: "sans-serif",
+                    }}
+                  >
                     {item.desc}
                   </p>
                   <div className={`${style.app__work_tag} ${style.ap_flex}`}>
