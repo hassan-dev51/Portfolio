@@ -3,10 +3,10 @@ const projects = [
     id: 1,
     image: "/images/expense.png",
     name: "Expense Tracker App",
-    git: "https://github.com/hassan-dev51/expense_tracker_app",
-    url: "https://budget-saving-application.netlify.app/",
+    git: "https://github.com/hassan-dev51/Q2-Projects/tree/main/expense_app",
+    url: "https://expense-lite.vercel.app/",
     desc: "For daily usage to keep remember daily transaction",
-    tag: "React App",
+    tag: "Next JS App",
   },
   {
     id: 2,
