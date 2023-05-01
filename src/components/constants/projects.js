@@ -12,8 +12,8 @@ const projects = [
     id: 2,
     image: "/images/covid.png",
     name: "Covid Tracker App",
-    git: "https://github.com/hassan-dev51/corona_tracker_app",
-    url: "https://covid-ninetee-app.netlify.app/",
+    git: "https://github.com/hassan-dev51/covid-19",
+    url: "https://covid-19-lite.vercel.app/",
     desc: "Known the current corona virus cases all over the world",
     tag: "React App",
   },
@@ -61,6 +61,15 @@ const projects = [
     url: "https://internshiptesting.netlify.app/",
     desc: "A Photoshop design project for a BRAND",
     tag: "HTML",
+  },
+  {
+    id: 7,
+    image: "/images/sumrix.png",
+    name: "Sumz Article",
+    git: "https://github.com/hassan-dev51/ai_summerize_website",
+    url: "https://ai-summerize.vercel.app/",
+    desc: "Summerize Articles With OpenAI GPT-4",
+    tag: "NEXT JS",
   },
 ];
 export default projects;
