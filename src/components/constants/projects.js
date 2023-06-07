@@ -71,5 +71,14 @@ const projects = [
     desc: "Summerize Articles With OpenAI GPT-4",
     tag: "NEXT JS",
   },
+  {
+    id: 8,
+    image: "/images/hackathon.png",
+    name: "Dine Market",
+    git: "https://github.com/hassan-dev51/hackathon",
+    url: "https://hackathon-iota.vercel.app/",
+    desc: "E-Commerce site for a brand including payment functionality",
+    tag: "NEXT JS",
+  },
 ];
 export default projects;

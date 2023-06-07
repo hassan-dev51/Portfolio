@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import style from "./home.module.css";
 const Home = () => {
   return (
-    <div className={style.container} id="home">
+    <div className={`${style.container} .image_placeholder`} id="home">
       <Navbar />
       <div className={style.main_heading}>
         <div className={style.heading}>

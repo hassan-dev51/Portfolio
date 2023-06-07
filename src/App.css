@@ -27,3 +27,8 @@ a {
 ::-webkit-scrollbar-thumb {
   background: #3fc9fb;
 }
+.image_placeholder {
+  background: url("../src/assests/Saly-16.png") no-repeat;
+  width: 200px;
+  height: 200px;
+}
