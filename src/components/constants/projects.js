@@ -80,5 +80,14 @@ const projects = [
     desc: "E-Commerce site for a brand including payment functionality",
     tag: "NEXT JS",
   },
+  {
+    id: 9,
+    image: "/images/carhub.png",
+    name: "Car Rental",
+    git: "https://github.com/hassan-dev51/carhub",
+    url: "https://carhub-lake.vercel.app/",
+    desc: "A car rental website where rent a car according to our need and budget",
+    tag: "NEXT JS",
+  },
 ];
 export default projects;
