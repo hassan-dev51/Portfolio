@@ -89,5 +89,23 @@ const projects = [
     desc: "A car rental website where rent a car according to our need and budget",
     tag: "NEXT JS",
   },
+  {
+    id: 10,
+    image: "/images/shoestore.png",
+    name: "Shoe Store Website",
+    git: "https://github.com/hassan-dev51/shoes-store",
+    url: "https://shoes-store-lite.vercel.app/",
+    desc: "Fetching the product from api and displaying on the page",
+    tag: "NEXT JS",
+  },
+  {
+    id: 11,
+    image: "/images/prompt.png",
+    name: "Socail Posting App",
+    git: "https://github.com/hassan-dev51/prompt",
+    url: "https://prompt-red.vercel.app/",
+    desc: "A Full Stack Application where people can share their Posts",
+    tag: "NEXT JS",
+  },
 ];
 export default projects;
