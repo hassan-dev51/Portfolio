@@ -107,5 +107,14 @@ const projects = [
     desc: "A Full Stack Application where people can share their Posts",
     tag: "NEXT JS",
   },
+  {
+    id: 12,
+    image: "/images/weatherapp.png",
+    name: "Weather App",
+    git: "https://github.com/hassan-dev51/weather-app",
+    url: "https://openweatherapi-test.vercel.app/",
+    desc: "Weather Forecasting App ",
+    tag: "NEXT JS",
+  },
 ];
 export default projects;
