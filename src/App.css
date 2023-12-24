@@ -16,7 +16,7 @@ a {
   font-family: "Baloo Bhaina 2", cursive;
   text-decoration: none;
   font-size: 20px;
-  color: #3fc9fb;
+  color: #8c52ff;
   font-weight: normal;
 }
 ::-webkit-scrollbar {
@@ -25,7 +25,7 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #3fc9fb;
+  background: #8c52ff;
 }
 .image_placeholder {
   background: url("../src/assests/Saly-16.png") no-repeat;

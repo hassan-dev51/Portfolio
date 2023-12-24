@@ -25,7 +25,7 @@ const Work = () => {
                 <div className={`${style.app__work_img} ${style.ap_flex}"`}>
                   <img
                     src={item.image}
-                    alt="{work.name}"
+                    alt={item.name}
                     loading="lazy"
                     className="image_placeholder"
                   />

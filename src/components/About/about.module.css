@@ -39,10 +39,11 @@ p {
 }
 .my_self a {
   background-color: #232323;
-  padding: 0px 10px;
-  width: 100px;
+  padding: 0px 50px;
   text-align: center;
+  color: #eb311f;
   border-radius: 50px;
+  font-weight: 700;
 }
 .my_image {
   width: 50%;

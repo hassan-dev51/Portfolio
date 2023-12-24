@@ -9,15 +9,15 @@ const Home = () => {
         <div className={style.heading}>
           <p>
             Empowering Your <br />
-            <span style={{ color: "green", fontSize: "36px" }}>Web</span>
+            <span style={{ color: "#8c52ff", fontSize: "36px" }}>Web</span>
             <br />
             Identity
           </p>
           <h3>
             We develop{" "}
-            <span style={{ color: "green", fontSize: "36px" }}>Websites</span>
+            <span style={{ color: "#8c52ff", fontSize: "36px" }}>Websites</span>
             <br /> that{" "}
-            <span style={{ color: "green", fontSize: "36px" }}>
+            <span style={{ color: "#8c52ff", fontSize: "36px" }}>
               Ignite
             </span>{" "}
             your business

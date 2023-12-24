@@ -16,7 +16,7 @@ const override = {
 
 root.render(
   <Suspense
-    fallback={<PropagateLoader color="#36d7b7" cssOverride={override} />}
+    fallback={<PropagateLoader color="#8c52ff" cssOverride={override} />}
   >
     <App />
   </Suspense>
