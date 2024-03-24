@@ -10,7 +10,11 @@ const Work = () => {
       <h2 style={{ textAlign: "center", margin: "1rem" }}>
         My <span>Projects</span> Demo
       </h2>
-      <div id="work" className={style.work}>
+      <div
+        id="work"
+        className={`${style.work}`}
+        style={{ justifyContent: "center" }}
+      >
         <div className={style.ap__flex}>
           {projects.map((item, ind) => (
             <motion.div
@@ -19,7 +23,12 @@ const Work = () => {
             >
               <div className={`${style.app__work_item} ${style.ap_flex}`}>
                 <div className={`${style.app__work_img} ${style.ap_flex}"`}>
-                  <img src={item.image} alt="{work.name}" loading="lazy" />
+                  <img
+                    src={item.image}
+                    alt={item.name}
+                    loading="lazy"
+                    className="image_placeholder"
+                  />
                   <motion.div
                     whileHover={{ opacity: [0, 1] }}
                     transition={{

@@ -50,7 +50,7 @@ const About = () => {
             </div>
 
             <div className={style.image_border}>
-              <img src={bg} alt="pic" loading="lazy" />
+              <img src={bg} alt="pic" loading="lazy" p />
               <div className={style.grid}>
                 <div></div>
                 <div className={style.data_white}></div>
