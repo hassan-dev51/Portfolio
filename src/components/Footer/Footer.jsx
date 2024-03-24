@@ -9,8 +9,6 @@ import {
 import { SiGmail } from "react-icons/si";
 import style from "./footer.module.css";
 const Footer = () => {
-  let date = new Date();
-  date.getFullYear();
   return (
     <div id="footer" className={style.footer}>
       <footer>
